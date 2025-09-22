@@ -4,7 +4,7 @@
 Program ini dibuat dengan aplikasi Java untuk mengelola data pre-order kain songket dengan menerapkan konsep OOP. Struktur program dibagi menjadi beberapa package, yaitu model untuk menyimpan struktur data, service untuk logika CRUD, dan main untuk menu interaksi pengguna. Pada bagian model diterapkan inheritance, di mana terdapat superclass PreOrder yang menyimpan atribut umum seperti id, namaPelanggan, alamat, dan jumlah, serta dua subclass yaitu PreOrderSongket yang menambahkan atribut motif dan PreOrderEksklusif yang menambahkan atribut bahan. Fitur yang tersedia dalam program ini meliputi menambah pesanan, melihat daftar pesanan, memperbarui data, menghapus data, serta melakukan pencarian berdasarkan nama pelanggan. Semua data pesanan dikelola menggunakan ArrayList dan input pengguna divalidasi agar lebih aman. Program berjalan secara berulang menampilkan menu utama dan hanya akan berhenti jika pengguna memilih menu keluar.
 
 
-**# Penjelasan Package #**
+# Penjelasan Package & Program #
 
 
 <img width="352" height="270" alt="{2745D803-73BE-42FC-BAE1-FD0470A367C5}" src="https://github.com/user-attachments/assets/7e332b4a-1db1-4624-b09c-92ccf0879e9e" />
@@ -85,3 +85,26 @@ Override dipakai agar objek dari subclass bisa memberikan hasil yang lebih spesi
 **# Package Model (Subclass PreOrderEkslusif) #**
 
 subclass ini masih berada dalam package yang sama dengan subclasss sebelumnya yaitu dalam package model.
+
+<img width="539" height="21" alt="{F0673702-AD98-421B-BD5A-49833B05E534}" src="https://github.com/user-attachments/assets/51d7e86b-dba4-4992-9bcc-4d41c106fd4a" />
+
+Deklarasi subclass lain yaitu PreOrderEksklusif yang juga mewarisi superclass PreOrder.
+
+<img width="298" height="22" alt="{6595D6BB-80D1-42A1-B900-2A275133DD9B}" src="https://github.com/user-attachments/assets/b9efff26-9b3f-4f15-93c5-60650c4d5c81" />
+
+Menambah atribut baru bahan, hanya dimiliki kain eksklusif.
+
+<img width="948" height="105" alt="{13358696-6B21-4C4E-9C49-FBF3EB738671}" src="https://github.com/user-attachments/assets/2d919a14-ca17-4ba1-b33b-13bbe471acc8" />
+
+Constructor subclass, tetap memanggil constructor superclass lalu menambahkan inisialisasi atribut bahan.
+
+<img width="556" height="160" alt="{20345EB7-CF5E-4CA6-94D7-F64163E57B01}" src="https://github.com/user-attachments/assets/0ab04771-7cb4-4cb1-aa79-50b0cf5a81b9" />
+
+Getter dan setter untuk atribut bahan.
+
+<img width="788" height="114" alt="{2E9183BF-36D1-4937-80A8-467B1999FBE7}" src="https://github.com/user-attachments/assets/571f8f12-93c6-47f4-9f74-c15f73c9c57d" />
+
+Method toString() dioverride agar menampilkan data lengkap termasuk bahan.
+
+**# Package Service (PreOrderService) #**
+
