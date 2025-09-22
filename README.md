@@ -108,3 +108,20 @@ Method toString() dioverride agar menampilkan data lengkap termasuk bahan.
 
 **# Package Service (PreOrderService) #**
 
+<img width="579" height="127" alt="{DF44A59F-091A-462D-9693-A1FB3A8C14D2}" src="https://github.com/user-attachments/assets/b7ed6900-8a1d-4a8c-b86e-df517b812e51" />
+
+Mengimpor library Java yang dibutuhkan serta kelas dari package Model.
+
+<img width="366" height="18" alt="{D04F9D1A-D0DA-4ED5-B7E3-A4E0FE1A91C6}" src="https://github.com/user-attachments/assets/346eadbf-7cf2-42f2-8034-7f42ef8774c2" />
+
+Deklarasi kelas PreOrderService yang berisi semua logika CRUD.
+
+<img width="722" height="45" alt="{E000040F-8B40-439D-8016-DA09758E6CA1}" src="https://github.com/user-attachments/assets/338a6eea-2c38-4876-a9d8-579e6bc945a7" />
+
+ArrayList digunakan untuk menyimpan semua data pre-order dan Scanner digunakan untuk membaca input pengguna.
+
+<img width="804" height="623" alt="{AC27DE49-999D-45D6-9568-FE4ECB8BDCCA}" src="https://github.com/user-attachments/assets/be7e99be-4420-43d1-bed1-9902bf64da0b" />
+<img width="676" height="492" alt="{B4E64768-6B47-4543-98E6-F2F90D03C51D}" src="https://github.com/user-attachments/assets/376dd673-a652-44ec-b5a5-949138396938" />
+
+Method ini menambah pesanan baru. Program meminta nama pelanggan, alamat, jumlah kain, lalu pilihan jenis kain. Jika memilih songket, diminta motif. Jika eksklusif, diminta bahan. Objek baru dibuat sesuai subclass lalu disimpan di listPreOrder.
+
