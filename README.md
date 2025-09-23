@@ -174,3 +174,34 @@ looping atau perulangan akan berhenti apabila pengguna memilih angka 6, dan Scan
 
 **# Output #**
 
+<img width="714" height="391" alt="{2AA0CA9C-3222-4B1D-92DF-FB7576057391}" src="https://github.com/user-attachments/assets/d7186009-b6af-4b79-a074-2216236ea480" />
+
+Pengguna diminta untuk mengimput atau memilih angka yang ingin di tuju, di sini dipilih angka 1 untuk menambahkan pesanan dan detail nya. terdapat dua pilihan yaitu 1. dengan pilhan Songket dan 2. untuk pilohan Eksklusif. di sini dipilih songket atau angka 1.
+
+<img width="706" height="391" alt="{E1F8EC37-637B-402B-8349-C25185AAC169}" src="https://github.com/user-attachments/assets/4f3635f7-76ae-4958-8efa-6f20bda20b35" />
+
+kemudian menginput kembali angka satu untuk memilih menu eksklusif, di mana pada menu ini terdapat menu bahan eksklusif yaitu dapat memilih atau request jenis bahan sesuai keinginan pelanggan.
+
+<img width="1227" height="287" alt="{BC04B3B6-F752-48BD-B3C9-8E8D79229948}" src="https://github.com/user-attachments/assets/f37b2dce-fb18-4943-a993-1cd2eb1fefec" />
+
+menu nomor dua digunakan unutk menampilkan informasi dan detail pemesanan.
+
+<img width="875" height="301" alt="{C6B88136-4D60-4A82-B88C-0025132A1F88}" src="https://github.com/user-attachments/assets/03570a41-dc17-4be7-9429-06e882745722" />
+
+menu nomor tiga digunakan untuk mengupdate pesanan, dapat dilihat pada gambar di atas bahwa ketika kembali mengimoutkan angka dua maka detail pesanan telah berhasil di update.
+
+<img width="948" height="235" alt="{B5CD8CB6-8023-4FAB-8A9B-D12455706FFB}" src="https://github.com/user-attachments/assets/8d0383fd-1d4a-4e32-a669-3dc8eb1b7d05" />
+
+menu nomor empat digunakan untuk menghapus pesanan.
+
+<img width="1241" height="261" alt="{2712460B-6762-4D62-A7E4-B81FCB9A8245}" src="https://github.com/user-attachments/assets/c7187d1d-ab07-4460-8a70-2c9c38a62537" />
+
+Pesanan berhasil dihapus.
+
+<img width="1252" height="240" alt="{0758610B-E361-4DA1-BE35-13F0C453842A}" src="https://github.com/user-attachments/assets/fcb71ba9-2709-4b25-8919-335cc5281cd2" />
+
+menu nomor lima dapat digunakan apabila pelanggan ingin mencari pesaanan berdasarkan ID.
+
+<img width="1001" height="210" alt="{5F8F009D-2BD8-451E-B072-97111A6A1460}" src="https://github.com/user-attachments/assets/82782a45-41f3-4e7a-b81b-51c3a3856a08" />
+
+apabila ingin keluar dari program atau aplikasi pemesanan, pengguna dapat memilih menu nomor enam.
