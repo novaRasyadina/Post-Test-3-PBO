@@ -125,3 +125,52 @@ ArrayList digunakan untuk menyimpan semua data pre-order dan Scanner digunakan u
 
 Method ini menambah pesanan baru. Program meminta nama pelanggan, alamat, jumlah kain, lalu pilihan jenis kain. Jika memilih songket, diminta motif. Jika eksklusif, diminta bahan. Objek baru dibuat sesuai subclass lalu disimpan di listPreOrder.
 
+<img width="657" height="246" alt="{22789A4D-406C-4758-83C8-DB519060132D}" src="https://github.com/user-attachments/assets/f8100702-c967-4c98-b9f9-486cffff2318" />
+
+Method ini menampilkan semua data pesanan. Jika list kosong, ditampilkan pesan belum ada data.
+
+<img width="879" height="650" alt="{9547A428-BEDC-4F47-87C6-60925FD00BCD}" src="https://github.com/user-attachments/assets/1a961451-42f6-4051-8785-5c6c3d553a76" />
+
+Method ini memperbarui data berdasarkan ID. Jika ID ada, pengguna bisa mengubah nama, alamat, atau jumlah. Jika jumlah tidak valid, data lama tetap dipakai.
+
+<img width="830" height="306" alt="{69C86FFA-C561-4180-866D-75284C9EBC00}" src="https://github.com/user-attachments/assets/6104ce3d-7946-48db-b850-b32bf4eeafb0" />
+
+Method ini menghapus pesanan berdasarkan ID. Jika ID tidak ditemukan, program memberi pesan error.
+
+<img width="761" height="345" alt="{576F547D-BAE6-4C81-9D41-6FF17E96294F}" src="https://github.com/user-attachments/assets/bfe41160-4e70-4fe3-b1fa-a076e1f24b38" />
+
+Method ini mencari data berdasarkan nama pelanggan. Jika ada yang cocok, data ditampilkan. Jika tidak, muncul pesan tidak ada data.
+
+<img width="612" height="217" alt="{FC8AC509-C87D-40CA-B026-39635D5AA078}" src="https://github.com/user-attachments/assets/6614a7e6-894c-4f27-b98a-d7ca36d28740" />
+
+Method bantu untuk mencari objek pre order berdasarkan ID pelanggan.
+
+**# Package Main (MainApp) #**
+
+<img width="512" height="49" alt="{CFC4B210-AD55-42A2-9823-800889DC5F0A}" src="https://github.com/user-attachments/assets/079c3abd-34a5-4669-af60-920b248d8956" />
+
+Deklarasi Class MainApp dan method main sebagai titik masuk program.
+
+<img width="574" height="42" alt="{9AFBDF8F-67E9-4363-8EE0-7536887202A3}" src="https://github.com/user-attachments/assets/e7ae1b11-e2ac-4170-aaa6-88b9480911d8" />
+
+Scanner dipakai untuk membaca input, sedangkan PreOrderService dipakai sebagai pengelola semua data.
+
+<img width="682" height="246" alt="{1C3EA20F-CE9E-40A8-8E50-983EC1CAEB51}" src="https://github.com/user-attachments/assets/d46e11bd-c308-45dd-8e57-01988c606210" />
+
+Menu utama yang ditampilkan terus meneerus dengan loop do while.
+
+<img width="658" height="147" alt="{E826E6FC-45C1-4DA6-942A-8B0BC8545099}" src="https://github.com/user-attachments/assets/d592cd56-183b-4e36-9719-fb1cc30cc1ef" />
+
+Validasi input agar hanya angka saja yang diterima, dan jika tidak valid atau menginpuy huruf dan karakter maka akan diset ke 1.
+
+<img width="911" height="215" alt="{9E553978-AFE1-46B2-9DD9-F44CE2271418}" src="https://github.com/user-attachments/assets/6564ee82-1eb5-4c24-8366-bd8fd3a781b7" />
+
+Switch case menjalankan method sesuai menu yang dipilih.
+
+<img width="452" height="115" alt="{600DDE6D-CAE0-4D6F-BD02-2B45791AA3B2}" src="https://github.com/user-attachments/assets/341fc0bc-bd44-4c27-81d8-769892e1630d" />
+
+looping atau perulangan akan berhenti apabila pengguna memilih angka 6, dan Scanner.close di sini ditutup settelah program selesai berjalan.
+
+
+**# Output #**
+
